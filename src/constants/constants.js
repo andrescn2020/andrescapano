@@ -1,22 +1,40 @@
 export const projects = [
   {
-    title: 'Videogames API',
-    description: "Using React, Node.js, Express & SQL i create an application to consult information about video games.",
-      image: '/images/Videogames.PNG',
-      tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
-    source: 'https://google.com',
-    visit: 'https://google.com',
-    id: 0,
-  },
-  {
     title: 'E-Commerce Smartify',
     description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
     image: '/images/Smartify.PNG',
     tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
     source: 'https://smartify.vercel.app/',
     visit: 'https://github.com/FinalProyectHenry25a/FinalProyect25a',
+    id: 0,
+  },
+  {
+    title: 'Calculator',
+    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
+    image: '/images/Smartify.PNG',
+    tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
+    source: 'https://smartify.vercel.app/',
+    visit: 'https://github.com/andrescn2020/Countries',
+    id: 2,
+  },
+  {
+    title: 'Videogames API',
+    description: "Using React, Node.js, Express & SQL i create an application to consult information about video games.",
+      image: '/images/Videogames.PNG',
+      tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
+    source: 'https://google.com',
+    visit: 'https://github.com/andrescn2020/Videogames',
     id: 1,
   },
+  {
+    title: 'Countries API',
+    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
+    image: '/images/Smartify.PNG',
+    tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
+    source: 'https://smartify.vercel.app/',
+    visit: 'https://github.com/andrescn2020/Countries',
+    id: 2,
+  }
 ];
 
 export const TimeLineData = [
