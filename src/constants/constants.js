@@ -11,11 +11,11 @@ export const projects = [
   {
     title: 'Calculator',
     description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
-    image: '/images/Smartify.PNG',
-    tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
+    image: '/images/Calculator.PNG',
+    tags: ['React', "JavaScript"],
     source: 'https://smartify.vercel.app/',
-    visit: 'https://github.com/andrescn2020/Countries',
-    id: 2,
+    visit: 'https://github.com/andrescn2020/Calculator',
+    id: 1,
   },
   {
     title: 'Videogames API',
@@ -24,7 +24,7 @@ export const projects = [
       tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: 'https://google.com',
     visit: 'https://github.com/andrescn2020/Videogames',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Countries API',
@@ -33,7 +33,7 @@ export const projects = [
     tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: 'https://smartify.vercel.app/',
     visit: 'https://github.com/andrescn2020/Countries',
-    id: 2,
+    id: 3,
   }
 ];
 
