@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Mi nombre es Andres Capano y soy desarrollador web full stack
       </SectionText>
-      <Button onClick={() => window.location = "https://google.com"}>Learn More</Button>
+      <Button onClick={() => window.location = "https://google.com"}>Download CV</Button>
     </LeftSection>
   </Section>
 );

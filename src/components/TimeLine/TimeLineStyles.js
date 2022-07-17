@@ -66,7 +66,7 @@ export const CarouselItem = styled.div`
 
 export const CarouselItemTitle = styled.h4`
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
@@ -100,7 +100,7 @@ export const CarouselItemImg = styled.svg`
 `
 
 export const CarouselItemText = styled.p`
-  font-size: 14px;
+  font-size: 2rem;
   line-height: 22px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);

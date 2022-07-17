@@ -42,7 +42,7 @@ export const TitleContent = styled.div`
 export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
-  color: #9cc9e3;
+  color: #dce3e7;
   padding: .5rem 0;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
@@ -59,7 +59,7 @@ export const Intro = styled.div`
   width: 170px;
   margin: 0 auto;
   color: #dce3e7;
-  font-family: 'Droid Serif', serif;
+  font-family: font-family: 'Ibarra Real Nova', serif;
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
@@ -89,14 +89,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
-font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
+color: #fff;
+font-size: 2rem;
+padding: 1rem 1.5rem;
+background-image: linear-gradient(135deg, #5a74ac 0, #5a74ac 50%, #5a74ac 100%);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background-image: linear-gradient(180deg, #bce5ff 0, #9db9f2 50%, #7e8fb3 100%);
 
 }
 `;
@@ -107,6 +107,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
-font-size: 1.5rem;
+color: #fff;
+font-size: 1.6rem;
 `
