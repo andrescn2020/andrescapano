@@ -9,15 +9,6 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Calculator',
-    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
-    image: '/images/Calculator.PNG',
-    tags: ['React', "JavaScript"],
-    source: 'https://smartify.vercel.app/',
-    visit: 'https://github.com/andrescn2020/Calculator',
-    id: 1,
-  },
-  {
     title: 'Videogames API',
     description: "Using React, Node.js, Express & SQL i create an application to consult information about video games.",
       image: '/images/Videogames.PNG',
@@ -29,11 +20,20 @@ export const projects = [
   {
     title: 'Countries API',
     description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
-    image: '/images/Smartify.PNG',
+    image: '/images/Countries.PNG',
     tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: 'https://smartify.vercel.app/',
     visit: 'https://github.com/andrescn2020/Countries',
     id: 3,
+  },
+  {
+    title: 'Calculator',
+    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
+    image: '/images/Calculator.PNG',
+    tags: ['React', "JavaScript"],
+    source: 'https://calculator-iota-dusky.vercel.app/',
+    visit: 'https://github.com/andrescn2020/Calculator',
+    id: 1,
   }
 ];
 
