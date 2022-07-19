@@ -12,7 +12,7 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Mi nombre es Andres Capano y soy desarrollador web full stack
+        Hello World!!!
       </SectionText>
       <Button onClick={() => window.location = "https://google.com"}>Download CV</Button>
     </LeftSection>

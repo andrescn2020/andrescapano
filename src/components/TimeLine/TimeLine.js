@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      I am passionate about the technological world, and I want to contribute my grain of sand to this sector.
+      My name is Andres Capano and I am a Software Developer recently graduated from Henry's Bootcamp with Front-End orientation with the ability to develop web projects always keeping in mind that they are scalable, efficient and modularizable in order to be able to build as a team.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

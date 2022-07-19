@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'E-Commerce Smartify',
-    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
+    description:"In this project, together with a team, we developed an e-commerce for cell phones sales with React.",
     image: '/images/Smartify.PNG',
     tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
     source: 'https://smartify.vercel.app/',
@@ -10,7 +10,7 @@ export const projects = [
   },
   {
     title: 'Videogames API',
-    description: "Using React, Node.js, Express & SQL i create an application to consult information about video games.",
+    description: "Using React, Node.js, Express & SQL i create an application to consult information about videogames.",
       image: '/images/Videogames.PNG',
       tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: 'https://google.com',
@@ -19,16 +19,16 @@ export const projects = [
   },
   {
     title: 'Countries API',
-    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
+    description:"Using React, Node.js, Express & SQL i create an application to consult information about countries around the world.",
     image: '/images/Countries.PNG',
     tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
-    source: 'https://smartify.vercel.app/',
+    source: 'https://google.com',
     visit: 'https://github.com/andrescn2020/Countries',
     id: 3,
   },
   {
     title: 'Calculator',
-    description:"In this project, together with a team, we developed an e-commerce for cell phone sales `and admin section`.",
+    description:"Using React and JavaScript, i develop a simple calculator with the basic operations.",
     image: '/images/Calculator.PNG',
     tags: ['React', "JavaScript"],
     source: 'https://calculator-iota-dusky.vercel.app/',
