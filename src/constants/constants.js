@@ -13,18 +13,18 @@ export const projects = [
     description: "Using React, Node.js, Express & SQL i create an application to consult information about videogames.",
       image: '/images/Videogames.PNG',
       tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
-    source: 'https://google.com',
+    source: '',
     visit: 'https://github.com/andrescn2020/Videogames',
-    id: 2,
+    id: 1,
   },
   {
     title: 'Countries API',
     description:"Using React, Node.js, Express & SQL i create an application to consult information about countries around the world.",
     image: '/images/Countries.PNG',
     tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
-    source: 'https://google.com',
+    source: '',
     visit: 'https://github.com/andrescn2020/Countries',
-    id: 3,
+    id: 2,
   },
   {
     title: 'Calculator',
@@ -33,7 +33,7 @@ export const projects = [
     tags: ['React', "JavaScript"],
     source: 'https://calculator-iota-dusky.vercel.app/',
     visit: 'https://github.com/andrescn2020/Calculator',
-    id: 1,
+    id: 3,
   }
 ];
 
