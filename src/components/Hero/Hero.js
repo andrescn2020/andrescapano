@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         Hello World!!!
       </SectionText>
-      <Button target onClick={() => window.location = "https://www.dropbox.com/s/cnnt56lpjwq1fva/AndresCapano-SoftwareDeveloper-CV.pdf?dl=0"}>CV</Button>
+      <Button target="_blank" onClick={() => window.location = "https://www.dropbox.com/s/cnnt56lpjwq1fva/AndresCapano-SoftwareDeveloper-CV.pdf?dl=0"}>CV</Button>
     </LeftSection>
   </Section>
 );
