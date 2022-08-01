@@ -13,7 +13,7 @@ export const projects = [
     description: "Using React, Node.js, Express & SQL i create an application to consult information about videogames.",
       image: '/images/Videogames.PNG',
       tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
-    source: '',
+    source: 'https://videogames-virid.vercel.app',
     visit: 'https://github.com/andrescn2020/Videogames',
     id: 1,
   },
