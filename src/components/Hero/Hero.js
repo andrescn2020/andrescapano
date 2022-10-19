@@ -11,10 +11,7 @@ const Hero = (props) => (
         Welcome to <br />
         My Personal Portfolio
       </SectionTitle>
-      <SectionText>
-        Hello World!!!
-      </SectionText>
-      <Button target="_blank" onClick={() => window.location = "https://drive.google.com/file/d/1atRHirkf6UFVMdUVRVO_i0-No7daN4WB/view"}>Resume</Button>
+      <Button target="_blank" onClick={() => window.location = "https://www.dropbox.com/s/3d2zdnt1ukdqc0f/Resume-FullStackDeveloper-CapanoAndres.pdf?dl=0"}>Resume</Button>
     </LeftSection>
   </Section>
 );

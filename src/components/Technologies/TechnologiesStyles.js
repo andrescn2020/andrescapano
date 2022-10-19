@@ -23,6 +23,11 @@ export const ImageContainer = styled.div`
   }
 `
 
+export const ListText = styled.p `
+  font-size: 3rem;
+  margin-left: 1rem;
+`
+
 export const MainImage = styled.img`
   width: 100%;
 `
@@ -98,7 +103,7 @@ export const ListParagraph = styled.p`
 `
 
 export const ListItem = styled.li`
-  max-width: 320px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
 

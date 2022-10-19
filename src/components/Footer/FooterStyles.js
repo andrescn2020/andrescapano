@@ -15,7 +15,7 @@ export const FooterWrapper = styled.section`
 `
 
 export const LinkItem = styled.a`
-	font-size: 18px;
+	font-size: 3rem;
 	line-height: 30px;
 	color: rgba(255, 255, 255, 0.75);
 	margin-bottom: 16px;
@@ -29,13 +29,13 @@ export const LinkItem = styled.a`
 	}
 
 	@media ${props => props.theme.breakpoints.md} {
-		font-size: 16px;
+		font-size: 2rem;
 		line-height: 28px;
 		display: flex;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
-		font-size: 8px;
+		font-size: 1rem;
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
@@ -85,7 +85,7 @@ export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
 	min-width: 280px;
 	letter-spacing: 0.02em;
-	font-size: 18px;
+	font-size: 2rem;
 	line-height: 30px;
 	padding: 1rem;
 
@@ -145,7 +145,7 @@ export const LinkColumn = styled.div`
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 3rem;
 	line-height: 24px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
