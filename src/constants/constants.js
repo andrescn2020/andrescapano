@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Movies App',
+    description:"",
+    image: '/images/Sasd.jpg',
+    tags: ['React Native', "Custom Hooks", "TypeScript"],
+    source: '',
+    visit: 'https://github.com/andrescn2020/react-native-and-ts-journey/tree/main/PeliculasApp',
+    id: 0,
+  },
+  {
     title: 'E-Commerce Smartify',
     description:"In this project, together with a team, we developed an e-commerce for cell phones sales with React.",
     image: '/images/Smartify.PNG',
     tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
     source: 'https://smartify.vercel.app/',
     visit: 'https://github.com/FinalProyectHenry25a/FinalProyect25a',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Videogames API',
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: 'https://videogames-virid.vercel.app',
     visit: 'https://github.com/andrescn2020/Videogames',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Countries API',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: '',
     visit: 'https://github.com/andrescn2020/Countries',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Calculator',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', "JavaScript"],
     source: 'https://calculator-iota-dusky.vercel.app/',
     visit: 'https://github.com/andrescn2020/Calculator',
-    id: 3,
+    id: 4,
   }
 ];
 

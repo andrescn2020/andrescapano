@@ -12,7 +12,7 @@ const Projects = () => (
     <GridContainer>
       {projects.map(( project ) => (
         <BlogCard key={project.id}>
-          <Img src={project.image} />
+          {project.id === 0 ? <Img style={{height: "250px"}} src={project.image} /> : <Img src={project.image} />}
           <TitleContent>
             <HeaderThree title>{project.title}</HeaderThree>
             <Hr  />
@@ -20,7 +20,6 @@ const Projects = () => (
           <CardInfo>{project.description}</CardInfo>
           <br/>
           <div>
-            <TitleContent>Stack</TitleContent>
             <TagList>
               {project.tags.map((tag, i) => (
                  <Tag key={i}>{tag} </Tag>
