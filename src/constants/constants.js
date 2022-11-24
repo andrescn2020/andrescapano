@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'Movies App',
-    description:"",
-    image: '/images/Sasd.jpg',
-    tags: ['React Native', "Custom Hooks", "TypeScript"],
-    source: '',
-    visit: 'https://github.com/andrescn2020/react-native-and-ts-journey/tree/main/PeliculasApp',
+    title: 'progevents',
+    description:"A site where you will find the best events in technology",
+    image: '/images/progevents.PNG',
+    tags: ['React', "Redux", "AWS", "Figma", ""],
+    source: 'https://progevents.vercel.app/',
+    visit: '',
     id: 0,
   },
   {
