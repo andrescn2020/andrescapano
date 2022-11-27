@@ -9,7 +9,7 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
+          <LinkTitle>Teléfono</LinkTitle>
           <LinkItem href="tel:1126361697">1126361697</LinkItem>
         </LinkColumn>
         <LinkColumn>
@@ -21,13 +21,13 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Technology is best when it brings people together.</Slogan>
+          <Slogan>La tecnología es mejor cuando une a las personas.</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/andrescn2020">
+          <SocialIcons href="https://github.com/andrescn2020" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/andrescapano/">
+          <SocialIcons href="https://www.linkedin.com/in/andrescapano/" target="_blank">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>

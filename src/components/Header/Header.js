@@ -10,32 +10,32 @@ const Header = () =>  (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center",color: "white", marginBottom: "1.5rem" }}>
-            <FaPushed size= "3rem" /> <Span>Portfolio</Span>
+            <FaPushed size= "3rem" /> <Span>Portafolio</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
        <li>
         <Link href="#projects">
-          <NavLink> Projects </NavLink>
+          <NavLink> Proyectos </NavLink>
         </Link>
        </li>
        <li>
         <Link href="#tech">
-          <NavLink> Technologies </NavLink>
+          <NavLink> Tecnologías </NavLink>
         </Link>
        </li>
        <li>
         <Link href="#about">
-          <NavLink> About </NavLink>
+          <NavLink> Sobre Mí </NavLink>
         </Link>
        </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/andrescn2020'>
+      <SocialIcons href='https://github.com/andrescn2020' target="_blank">
         <AiFillGithub size= "3rem" />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/in/andrescapano/'>
+      <SocialIcons href='https://www.linkedin.com/in/andrescapano/' target="_blank">
         <AiFillLinkedin size= "3rem" />
       </SocialIcons>
     </Div3>

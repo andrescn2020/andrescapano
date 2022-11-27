@@ -1,16 +1,16 @@
 export const projects = [
   {
     title: 'progevents',
-    description:"A site where you will find the best events in technology",
+    description:"Un sitio donde encontrarás los mejores eventos y webinars en tecnología",
     image: '/images/progevents.PNG',
-    tags: ['React', "Redux", "AWS", "Figma", ""],
+    tags: ['React', "Redux", "AWS", "Figma"],
     source: 'https://progevents.vercel.app/',
     visit: '',
     id: 0,
   },
   {
     title: 'E-Commerce Smartify',
-    description:"In this project, together with a team, we developed an e-commerce for cell phones sales with React.",
+    description:"En este proyecto, junto a un equipo, desarrollamos un e-commerce para la venta de celulares con React.",
     image: '/images/Smartify.PNG',
     tags: ['React', "Firebase", "Express", "SQL", "Node", "Bootstrap"],
     source: 'https://smartify.vercel.app/',
@@ -18,8 +18,8 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Videogames API',
-    description: "Using React, Node.js, Express & SQL i create an application to consult information about videogames.",
+    title: 'Videogames APP',
+    description: "Usando React, Node.js, Express y SQL desarrolle una aplicación para consultar información sobre videojuegos.",
       image: '/images/Videogames.PNG',
       tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: 'https://videogames-virid.vercel.app',
@@ -27,8 +27,8 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Countries API',
-    description:"Using React, Node.js, Express & SQL i create an application to consult information about countries around the world.",
+    title: 'Countries APP',
+    description:"Usando React, Node.js, Express y SQL desarrolle una aplicación para consultar información sobre países de todo el mundo.",
     image: '/images/Countries.PNG',
     tags: ['Express', 'React', 'Node', "Sequelize", "SQL", "JavaScript"],
     source: '',
@@ -36,8 +36,8 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'Calculator',
-    description:"Using React and JavaScript, i develop a simple calculator with the basic operations.",
+    title: 'Calculadora',
+    description:"Usando React y JavaScript, desarrolle una calculadora sencilla con las operaciones básicas.",
     image: '/images/Calculator.PNG',
     tags: ['React', "JavaScript"],
     source: 'https://calculator-iota-dusky.vercel.app/',

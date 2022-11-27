@@ -2,13 +2,14 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 
- const About = () => {
+const About = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionTitle>Sobre Mí</SectionTitle>
       <SectionText>
-      My name is Andres Capano and i am a Full Stack Developer with the ability to develop projects always keeping in mind that they are scalable, efficient and modularizable in order to be able to build as a team.
+        Mi nombre es Andrés Capano y soy un Full Stack Developer con capacidad de realizar proyectos complejos con un equipo al valerse de herramientas como las metodologías ágiles, git, entre otras.
+        Siempre trabajando con la idea de que sean escalables, eficientes y moduralizables para así poder construir de una manera más limpia y ordenada.
       </SectionText>
     </Section>
   );

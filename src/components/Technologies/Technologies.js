@@ -10,7 +10,7 @@ const Technologies = () => (
     <SectionDivider />
     <br />
 
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologiás</SectionTitle>
     <List>
       <ListItem>
         <div style={{ display: "grid" }}>

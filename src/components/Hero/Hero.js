@@ -8,10 +8,12 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        Bienvenid@s a mi Portafolio!!!
       </SectionTitle>
-      <Button target="_blank" onClick={() => window.location = "https://www.dropbox.com/s/3d2zdnt1ukdqc0f/Resume-FullStackDeveloper-CapanoAndres.pdf?dl=0"}>Resume</Button>
+      <a href="https://www.dropbox.com/s/q37cp1d8gmauziy/CV-CapanoAndres-FullStackDeveloper.pdf?dl=0" target="_blank">
+      <Button>Descargar CV</Button>
+      </a>
+      
     </LeftSection>
   </Section>
 );
